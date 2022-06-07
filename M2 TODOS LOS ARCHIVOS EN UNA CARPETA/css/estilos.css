@@ -1,0 +1,283 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    background-color: #006A08;
+    margin: 5%; 
+    font-family: 'Bebas Neue', cursive;
+}
+header {
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+}
+.titulos{
+    padding-top: 1%;
+    width: 300px;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 2px solid black;            
+}
+nav ul {
+    margin-top: 12%;
+    position: relative;
+    left: 240px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+div{
+    height:  200px;
+    width: 600px;
+}
+
+.Logo{
+    height: 100px;
+    width: 100px;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.principal{
+    width: 100%;
+    height: 650px;
+    background-image: url("../images/light_header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items; center;
+    color: white;
+}
+
+.principal div {
+    padding: 5%;
+}
+
+.principal img {
+    max-width: 60%
+    margin-bottom: 5%;
+}
+
+.secundario{
+    margin-top: 5%;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.secundario div {
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+}
+p {
+    position: relative;
+    left: 34px;
+    text-align: justify;
+    height: 70px;
+    width: 300px;
+    margin-top: 8px;
+}
+ .secundario div a img {
+     width: 100%;
+     margin-bottom: 2rem;
+     text-align: justify;
+ }
+.secundario div li {
+    position: relative;
+    right: 105px;  
+}
+
+.fotowalter{
+    height: 200px;
+    width: 300px;
+}
+.Hank {
+    height: 200px;
+    width: 300px;
+}
+.Saul {
+    height: 200px;
+    width: 300px;
+}
+
+
+article {
+    display: flex;
+    justify-content: space-between;
+}
+.temporada1foto {
+    height: 250px;
+    width: 350px;
+}
+.temporada2foto {
+    height: 250px;
+    width: 350px;
+}
+
+.temporada3foto {
+    height: 250px;
+    width: 350px;
+}
+.temporada4foto {
+    height: 250px;
+    width: 350px;
+}
+.temporada5foto {
+    height: 250px;
+    width: 350px;
+}
+
+.t1t2 {
+    justify-content: center;
+    position: relative;
+    left: 10px;
+}
+.t1t2 img {
+    position: relative;
+    left: 32px;
+}
+.t3t4 {
+    justify-content: center;
+    position: relative;
+    top: 450px;
+    left: 80px;
+
+}
+.t3t4 img {
+    position: relative;
+    left: 32px;
+}
+.t5 {
+    justify-content: center;
+    position: relative;
+    top: 750px;
+    left: 300;
+}
+.t5 img {
+    position: relative;
+    left: 32px;
+}
+
+.titulotemporada {
+    position:relative;
+    left: 32px;
+}
+.infocapitulos {
+    height: 250px;
+    width: 350px;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    right: 100px;
+
+}
+
+.sectionserie {
+    margin left: 8%;
+}
+
+h2 {
+    height: 31px;
+    width: 110px;
+}
+
+.form-login {
+    display: block;
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    position: relative;
+    left: 100px;
+    
+}
+h5{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.controls {
+   position: relative;
+   left: 20px;
+   height: 30px;
+   width: 360px;
+}
+.buttons {
+    position: relative;
+    top: 10px;
+    left: 175px;
+}
+.form-login p {
+    color: white;
+    text-align: center;
+}
+.form-create {
+    position: relative;
+    left: 600px;
+    bottom: 200px;
+    display: block;
+    height: 200px;
+    width: 400px;
+    background-color: black;
+}
+
+.sectionlogin {
+    height: 80px;
+}
+
+.example-image {
+    height: 250px;
+    width: 400px;
+}
+.example-image-link {
+    display: inline-flex;
+}
+
+
+
+
+.footerserie {
+    position: relative;
+    top: 1050px;
+}
+.footergaleria {
+    position: relative;
+    top: 3120px;
+}
+footer {
+    position: relative;
+    top: 170px;
+    display: flex;
+}
+footer h1 {
+    padding-top: 3%;
+}
+
+footer p { 
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+    padding-top: 5%;
+    height: 70px;
+    width: 420px;
+}
+footer nav {
+    position: relative;
+    right: 15%;
+    display: inline-block;
+    font-size: 1.2rem;   
+}
